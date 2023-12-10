@@ -21,7 +21,7 @@ public class Main {
     }
     public static void main(String[] args) {
         // Пример использования функции для чтения из текстового файла
-        String filePath = "D:\\Test1.txt"; // Укажите путь к вашему текстовому файлу
+        String filePath = "/Users/nikolaj/Downloads/Archive/UniversityDownload/BackOfSky.txt"; // Укажите путь к вашему текстовому файлу
         List<String> fileContent = readFromFile(filePath);
         // Вывод первых 5 строк из файла
         System.out.println("First 5 lines from the file:");
