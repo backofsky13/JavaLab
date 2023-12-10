@@ -2,9 +2,9 @@ package lab23;
 public class Main {
     public static void main(String[] args) {
         // Создаем объекты блюд и напитков
-        Dish dish1 = new Dish("Паста", "Макароны по-Флотски", 250);
-        Dish dish2 = new Dish("Салат", "Цезарь", 150);
-        Drink drink1 = new Drink("Напиток", "Добрый Кола", 80);
+        Dish dish1 = new Dish("Паста", "Макароны", 350);
+        Dish dish2 = new Dish("Салат", "Цезарь", 250);
+        Drink drink1 = new Drink("Напиток", "Кола", 70);
         Drink drink2 = new Drink("Чай", "Чай зелёный", 50);
         // Создаем заказы и добавляем позиции
         InternetOrder order1 = new InternetOrder();
