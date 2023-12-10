@@ -4,7 +4,7 @@ public class AppendToFile {
     public static void main(String[] args) {
         try {
             // Укажите путь к файлу, который вы хотите изменить
-            String filePath = "C:\\Users\\koche\\OneDrive\\Desktop\\Test.txt";
+            String filePath = "/Users/nikolaj/Downloads/Archive/UniversityDownload/BackOfSky.txt";
             // Получаем новый текст, введенный с клавиатуры
             System.out.print("Введите текст для добавления в файл: ");
             BufferedReader keyboardReader = new BufferedReader(new InputStreamReader(System.in));
