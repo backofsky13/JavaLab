@@ -5,7 +5,7 @@ import java.io.IOException;
 public class ReadFromFile {
     public static void main(String[] args) {
         try {
-            String filePath = "C:\\Users\\koche\\OneDrive\\Desktop\\Test.txt";
+            String filePath = "/Users/nikolaj/Downloads/Archive/UniversityDownload/BackOfSky.txt";
             // Создаем объект FileReader для чтения файла
             FileReader fileReader = new FileReader(filePath);
             // Создаем объект BufferedReader для более эффективного чтения
